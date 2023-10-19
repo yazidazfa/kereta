@@ -1,0 +1,73 @@
+body{
+    background-image: url('background.jpg');
+}
+h1{
+    color: #279EFF ;
+    font-weight: 200;
+    font-size: 61px;
+}
+p{
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.kotak{
+    display: flex;
+    flex-direction: row;
+}
+.kotak1 {
+    width: 50%;
+}
+.kotak2{
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    padding: 20px;
+}
+.lokasi, .tanggal, .usia{
+    margin: 10px;  
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    column-gap: 15px;
+}
+.berangkat, .tujuan{
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #D1D1D1;
+    width: 50%;;
+}
+.dewasa, .anak, .kelas{
+    display: inline-block;
+    padding: 3px;
+    border: 1px solid #D1D1D1;
+    width: 33%;
+}
+input[type='text'],
+input[type='date'],
+select{
+    outline: none;
+    border: none;
+    display:block;
+    width: 100%; 
+    padding: 9px; 
+    margin-bottom: 10px; 
+    box-sizing: border-box;
+    opacity: 0.5
+}
+.tombol button{
+    width: 100%;
+    background-color: #6499E9;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    padding: 15px;
+    color: white;
+}
+select{
+    opacity: 1;
+}
